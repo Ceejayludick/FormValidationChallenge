@@ -11,34 +11,110 @@
 
 <body>
 
-    <form action="info.php" method="post">
-        <input type="text" id="name" name="user_name" required>
+    <div class="wrapper">
+        <form action="info.php" method="post">
+    
+            
 
-        <label for="user id"> User ID</label>
-        <input type="text" name="used_id">
+            <div class="userID">
+                <label for="user id"> User ID</label>
+                <input type="text" name="used_id">
+            </div>
 
-        <label for="user id"> Password</label>
-        <input type="text" name="password">
+            <div class="password">
+                <label for="user id"> Password</label>
+                <input type="text" name="password">
+            </div>
 
-        <label for="user id"> Name</label>
-        <input type="text" name="name">
+            <div class="name">
+                <label for="user id"> Name</label>
+                <input type="text" name="name">
+            </div>
 
-        <label for="user id"> Address</label>
-        <input type="text" name="Address">
+            <div class="address">
+                <label for="user id"> Address</label>
+                <input type="text" name="Address">
+            </div>
 
-        <label for="user id"> Postcode</label>
-        <input type="text" name="Postcode">
+            <label for="user id"> Country</label>
+            <form>
+                <select id="country" name="country">
+                    <option value="au">Australia</option>
+                    <option value="ca">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="za">South Africa</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+            </form>
+
+            <div class="postcode">
+                <label for="user id"> Postcode</label>
+                <input type="text" name="Postcode">
+            </div>
+
+            <div class="email">
+                <label for="mail">Email:</label>
+                <input type="email" name="user_mail">
+            </div>
+
+            <label for="gender">Gender:</label>
+            <label class="container">Male
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+                <label class="container">Female
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
 
 
-        <label for="mail">Email:</label>
-        <input type="email" name="user_mail">
 
-        <label for="msg"> Message:</label>
-        <textarea id="msg" name="user_message"></textarea>
+             <div class="language">
+                    <label for="language"> Language:</label>
+                    <label class="container">English
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> Afrikaans
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> Xhosa
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> Zulu
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> French
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> Spanish
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> German
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="Container"> Mandarin 官話 / 官话
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+              </div>
 
-        <label for="" </form>
+
+            </label>
+
+            <div class="message">
+                <label for="msg"> About:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
 
 
+
+    </div>
 
 
 </body>
