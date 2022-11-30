@@ -1,4 +1,6 @@
-* { box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 h1 {
     margin: 25px;
@@ -8,10 +10,9 @@ h1 {
 
 body {
     display: block;
-    margin: 25px;
-    border: 10%;
-    padding: 10%;
-
+    margin: 5px;
+    border: 25%;
+    padding: 5%;
 }
 
 
@@ -32,12 +33,13 @@ select {
     background-color: #f1f1f1;
 }
 
-.container input:checked   .checkmark::before {
+.container input:checked .checkmark::before {
     display: block;
 }
 
 .language {
     display: flex;
     align-items: flex-start;
-
+    flex-direction: column;
 }
+
